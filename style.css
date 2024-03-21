@@ -1,0 +1,95 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:rgba(85, 73, 73, 0.712);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+    padding: 50px;
+    /* background-color: brown; */
+
+}
+
+.card{
+    background-color:white;
+    width: 250px;
+    height:450px;
+    margin: 20px;
+    border-radius: 15px;
+    /* cursor: pointer; */
+    
+}
+
+
+.card-image{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card1{
+    background-image: url('closeup-drop-water-leaf-flower-reflecting-surrounding-colors-textures_674594-4382.avif');
+}
+
+.card2{
+    background-image:url('painting-mountain-lake-with-mountain-background_188544-9126.avif');
+}
+
+.card3{
+    background-image: url('pngtree-lion-lion-wallpapers-hd-desktop-wallpapers-image_2563165.jpg');
+}
+
+
+.card h2{
+    padding: 8px;
+    font-family: pacifico;
+    font-size:20px;
+}
+
+.card p{
+    padding: 12px;
+    font-family:sofia;
+    font-size: 14px;
+    
+}
+
+.card:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.8s;
+}
+
+/* .card-col2:hover{
+    background-color: brown;
+    color: rgb(173, 107, 96);
+
+}
+ */
+
+ 
+/* .card-col p{
+    background-color:brown;
+
+} */
+
+
+@media screen and (max-width:770px) {
+
+    .container{
+        flex-direction: column;
+    }
+    
+}
